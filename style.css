@@ -53,7 +53,7 @@ nav a:hover::after {
 
 .upper_section {
   height: 750px;
-  background-image: url("field1.jpg");
+  background-image: url("Field1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
