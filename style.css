@@ -1,0 +1,561 @@
+body {
+margin:0px;
+font-family: sans-serif;
+}
+
+
+
+.main-header {
+
+height: 85px;
+display:flex;
+justify-content: space-between;
+/* text-align: center; */
+align-items: center;
+padding: 0px 200px;
+background-color:white ;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  padding: 20px 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #22c55e;
+  transition: 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+
+
+
+/* .upper_section img{ */
+/* height: auto; */
+/* padding:0px  */
+
+.upper_section {
+  height: 750px;
+  background-image: url("field1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.content{
+position: absolute;
+top:425px;
+left: 20%;
+transform: translateY(-50%);
+color: white;
+font-size:25px
+}
+
+.content h1{
+  padding-bottom;0px;
+  margin-bottm:0px;
+  font-size:85px;
+}
+
+
+.lower_section{
+display: flex;
+justify-content: space-around;
+padding: 100px 100px;
+}
+
+.cards{
+
+width:25% ;
+height: auto;
+text-align: center;
+}
+
+.main-footer{
+display: Flex;
+align-items: center;
+text-align: center;
+flex-direction: column;
+padding: 60px;
+background-color: #EAEAEF;
+}
+
+.main-footer h2{
+padding-bottom: 20px;
+
+}
+.main-footer p {
+
+padding-bottom: 25px;
+
+}
+.Home_Button{
+background: #22c55e;
+  color: white;
+  border: none;
+  padding: 25px 45px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.Home_Button:hover{
+
+background-color: #16a34a;
+
+
+
+}
+
+/* ----------------Fields Page---------------- */
+/* ----------------Fields Page---------------- */
+/* ----------------Fields Page---------------- */
+/* ----------------Fields Page---------------- */
+/* ----------------Fields Page---------------- */
+/* ----------------Fields Page---------------- */
+/* ----------------Fields Page---------------- */
+
+.second-page-header{
+
+height: 225px ;
+width: auto;
+/* border: #16a34a 3px solid; */
+background-color: #EAEAEF;
+padding-left: 60px;
+padding-top: 30px;
+}
+
+.second-page-header h2{
+font-size:25px ;
+padding-bottom: 20px;
+
+}
+
+.second-page-header p{
+padding-bottom: 20px;
+color:#6b7280;
+}
+
+.second-page-header input{
+
+width: 1700px;
+padding: 12px;
+font-size: 16px;
+
+}
+.Fieldss{
+
+ /* border:red 2px solid  */
+  
+}
+
+.Fieldss img{
+
+height: 250px;
+width: 400px;
+border-radius: 5px;
+}
+
+
+
+.first-fields{
+margin-top:100px ;
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.second-fields{
+margin-top:75px ;
+margin-bottom:200px ;
+display: flex;
+justify-content: center;
+gap: 50px;
+
+
+}
+
+.top{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 5px 0px 5px;
+/* border: #3222c5 solid 2px; */
+margin:0px ;
+height: 20px;
+}
+
+.down{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 7px 5px 10px 5px;
+/* border: #3222c5 solid 2px; */
+margin: bottom 10px ;
+height: 20px;
+color: #9ca3af;
+}
+
+.desc{
+margin: 0px;
+height:30px ;
+/* border: #3222c5 2px solid; */
+color: #9ca3af;
+display: flex;
+gap: 16px;
+padding: 0px 5px 0px 5px;
+}
+
+.book-button{
+margin-top: 3%;
+background: #16a34a;
+height:50px;
+width: 100%;  
+color: white;
+border: none;
+padding: 12px;
+font-size: 16px;
+cursor: pointer;
+font-size: 20px;
+
+}
+
+.book-button:hover {
+transform: scale(1.02);
+background-color: #148a3f;
+}
+
+
+/* ----------------------------------------------------------- */
+
+.booking-form-section {
+  position:Fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000099;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  /* z-index: 9999; */
+}
+
+.booking-form-article {
+  width: 650px;
+  max-height: 90vh;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.booking-form-image-header {
+  position: relative;
+  height: 190px;
+}
+
+.booking-form-image-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.close-booking-form-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.booking-form-content {
+  padding: 30px;
+
+}
+
+.booking-form-content h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.booking-field-type {
+  color: #6b7280;
+
+}
+
+.booking-field-details {
+  display: flex;
+  gap: 20px;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.booking-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 25px;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.booking-form h3 {
+  margin-bottom: 15px;
+}
+
+.booking-date-options {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.booking-time-options {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.booking-date-btn,.booking-time-btn {
+  padding: 14px 5px;
+  border: none;
+  background-color: #EAEAEF;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.booking-date-btn.active,.booking-time-btn.active {
+  background-color: #10b981;
+  color: white;
+}
+
+.booking-total {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EAEAEF;
+  padding: 18px;
+  margin-bottom: 25px;
+}
+
+.booking-total p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.confirm-booking-btn {
+  width: 100%;
+  padding: 18px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.confirm-booking-btn:hover {
+  background-color: #059669;
+}
+
+
+
+
+/* ----------------My Booking Page---------------- */
+/* ----------------My Booking Page---------------- */
+/* ----------------My Booking Page---------------- */
+/* ----------------My Booking Page---------------- */
+/* ----------------My Booking Page---------------- */
+/* ----------------My Booking Page---------------- */
+/* ----------------My Booking Page---------------- */
+/* ----------------My Booking Page---------------- */
+
+
+
+
+.my-booking-page-header{
+height: 150px ;
+width: auto;
+/* border: #16a34a 3px solid; */
+background-color: #EAEAEF;
+padding-left: 60px;
+padding-top: 30px;
+}
+
+.my-booking-page-header h2{
+padding-left: 100px;
+
+}
+
+.my-booking-page-header p{
+padding-left: 100px;
+color: #6b7280;
+}
+
+
+
+.My-booking-section {
+
+display: flex;
+justify-content: center;
+margin-top: 60px;
+
+}
+
+
+
+.booking-article {
+
+width: 850px;
+background-color: white;
+border: 1px solid #d1d5db;
+padding: 20px;
+display: flex;
+gap: 20px;
+box-sizing: border-box;
+
+}
+
+
+
+.booking-article img {
+
+width: 180px;
+height: 160px;
+object-fit: cover;
+
+}
+
+
+
+.booking-info {
+width:100%;
+flex: 1;
+
+}
+
+
+
+.booking-info h3 {
+
+font-size: 28px;
+margin-top: 0px;
+margin-bottom: 8px;
+
+}
+
+
+
+.booking-info p {
+
+color: #6b7280;
+font-size: 15px;
+
+}
+
+
+
+.date-info {
+
+display: flex;
+gap: 18px;
+margin-top: 18px;
+
+}
+
+
+
+.customer-info {
+
+display: flex;
+gap: 20px;
+background-color: #EAEAEF;
+padding: 12px;
+margin-top: 18px;
+
+}
+
+
+
+.customer-info p {
+
+margin: 0px;
+
+}
+
+
+
+.cancel-btn {
+
+margin-top: 22px;
+padding: 12px 22px;
+background-color: white;
+border: 1px solid red;
+color: red;
+font-size: 15px;
+cursor: pointer;
+
+}
+
+
+
+.cancel-btn:hover {
+
+background-color: #fee2e2;
+
+}
+
+
+
+.booking-price {
+
+text-align: right;
+
+}
+
+
+
+.booking-price h3 {
+
+font-size: 25px;
+margin-bottom: 0px;
+
+}
+
+
+
+.booking-price p {
+
+margin-top: 5px;
+color: #6b7280;
+font-size: 14px;
+
+}
